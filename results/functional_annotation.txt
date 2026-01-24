@@ -1,0 +1,12 @@
+FUNCTIONAL ANNOTATION
+---------------------
+
+Based on BLASTp analysis, the query protein shows strong homology
+to (S)-ureidoglycine aminohydrolase.
+
+(S)-ureidoglycine aminohydrolase is an enzyme involved in amino acid
+metabolism, where it catalyzes the hydrolysis of ureidoglycine into
+simpler metabolic products.
+
+The significant sequence similarity suggests that the query protein
+likely performs a similar enzymatic function.

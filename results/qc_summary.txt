@@ -1,0 +1,9 @@
+SEQUENCE QUALITY CHECK SUMMARY
+-------------------------------
+Sequence ID: sp|P75713|ALLE_ECOLI
+Sequence Length: 261 amino acids
+QC Decision: Sequence length is sufficient for downstream analysis.
+
+
+
+
