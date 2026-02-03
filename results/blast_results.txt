@@ -3,8 +3,9 @@ HOMOLOGY SEARCH RESULTS (BLASTp)
 BLAST was performed programmatically using Biopython
 (Bio.Blast.NCBIWWW).
 
-BLAST output was obtained in XML format and parsed
-for functional interpretation.
+The BLAST output was generated in XML format and
+used for downstream functional annotation.
+
 
 Top BLAST Hit:
 Protein Name: (S)-ureidoglycine aminohydrolase
