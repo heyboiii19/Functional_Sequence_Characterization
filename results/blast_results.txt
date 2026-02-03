@@ -6,7 +6,6 @@ BLAST was performed programmatically using Biopython
 The BLAST output was generated in XML format and
 used for downstream functional annotation.
 
-
 Top BLAST Hit:
 Protein Name: (S)-ureidoglycine aminohydrolase
 Sequence Length: 261 amino acids

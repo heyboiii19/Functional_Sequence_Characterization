@@ -20,7 +20,7 @@ The workflow follows standard bioinformatics practices taught in the course.
 ## Tools and Resources Used
 - Python
 - Biopython
-- NCBI BLAST
+- BLASTp performed programmatically using Biopython (Bio.Blast.NCBIWWW)
 - UniProt database
 - VS Code IDE (local system)
 
