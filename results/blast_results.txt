@@ -1,12 +1,15 @@
 HOMOLOGY SEARCH RESULTS (BLASTp)
---------------------------------
 
-By BLAST:
+BLAST was performed programmatically using Biopython
+(Bio.Blast.NCBIWWW).
+
+BLAST output was obtained in XML format and parsed
+for functional interpretation.
+
+Top BLAST Hit:
 Protein Name: (S)-ureidoglycine aminohydrolase
-Query Length: 261 amino acids
-Molecule Type: Protein
+Sequence Length: 261 amino acids
 
 Interpretation:
-The BLASTp analysis identified strong homology with a known enzyme.
-This suggests that the query sequence likely performs a similar
-biological function related to amino acid metabolism.
+The BLASTp analysis indicates strong homology with a known enzyme.
+High similarity suggests conserved biological function.

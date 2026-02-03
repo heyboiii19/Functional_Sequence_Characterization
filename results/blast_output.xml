@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4464577</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>261</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4464577</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>261</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_038432500.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|AIZ30934.1| hypothetical protein ER2796_4589 [Escherichia coli ER2796] &gt;gb|AIZ54259.1| hypothetical protein ER3413_4589 [Escherichia coli K-12] &gt;gb|AKD60096.1| hypothetical protein SH05_06375 [Escherichia coli K-12] &gt;gb|AKD64466.1| hypothetical protein SH02_06330 [Escherichia coli K-12] &gt;gb|AKD68844.1| hypothetical protein SH08_06375 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>WP_038432500</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.495</Hsp_bit-score>
+      <Hsp_score>1386</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_000540997.1|</Hit_id>
+  <Hit_def>MULTISPECIES: (S)-ureidoglycine aminohydrolase [Enterobacteriaceae] &gt;ref|NP_415048.1| (S)-ureidoglycine aminohydrolase [Escherichia coli str. K-12 substr. MG1655] &gt;sp|P75713.1| RecName: Full=(S)-ureidoglycine aminohydrolase; Short=UGHY; Short=UGlyAH [Escherichia coli K-12] &gt;pdb|1RC6|A Chain A, Hypothetical protein ylbA [Escherichia coli] &gt;pdb|1RC6|B Chain B, Hypothetical protein ylbA [Escherichia coli] &gt;gb|AFG39408.1| hypothetical protein P12B_c0528 [Escherichia coli P12b] &gt;gb|AGX32657.1| ylbA [synthetic Escherichia coli C321.deltaA] &gt;gb|EEZ5785122.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O107] &gt;gb|EEZ6030250.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O101] &gt;gb|EEZ6074667.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O6] &gt;gb|EEZ6614357.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O21] &gt;gb|EEZ8619966.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O17] &gt;gb|EEZ9700192.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O1] &gt;gb|EEZ9758366.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O25] &gt;gb|EFA4038735.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O120:H10] &gt;gb|EFA4054316.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O38:H26] &gt;gb|EFA4165608.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O70:H25] &gt;gb|EFA4176508.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O43:H14] &gt;gb|EFA4204520.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O2:H32] &gt;gb|EFA4232876.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O40:H32] &gt;gb|EFA6548228.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O157:H7] &gt;gb|EFA8201567.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O157] &gt;gb|EFA8747648.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O117] &gt;gb|EFN7232111.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O26:H32] &gt;gb|EFN7261290.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O162:H9] &gt;gb|EFN8427106.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O113] &gt;gb|EFN8440907.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O119] &gt;gb|EFN8570538.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O85:H32] &gt;gb|EFN8599952.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O79:H40] &gt;gb|EFN8618401.1| (S)-ureidoglycine aminohydrolase [Escherichia coli H8] &gt;gb|EFN8622221.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O51] &gt;gb|EFN8661003.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O2] &gt;gb|EFN8706283.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O79] &gt;gb|EFO2086599.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O109] &gt;gb|EGB67380.1| cupin domain-containing protein [Escherichia coli TA007] &gt;gb|EGU25542.1| hypothetical protein IAE_17738 [Escherichia coli XH140A] &gt;gb|EGX12673.1| cupin domain protein [Escherichia coli G58-1] &gt;gb|EHV62598.1| hypothetical protein ECDEC6A_0683 [Escherichia coli DEC6A] &gt;gb|EHV64632.1| S-ureidoglycine aminohydrolase [Escherichia coli DEC6B] &gt;gb|EHV66986.1| hypothetical protein ECDEC6C_0515 [Escherichia coli DEC6C] &gt;gb|EIH0323603.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O112] &gt;gb|ELF21982.1| ureidoglycine aminohydrolase [Escherichia coli KTE156] &gt;gb|EMZ8225436.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O162/O89:H9] &gt;gb|ENA0321016.1| (S)-ureidoglycine aminohydrolase [Escherichia coli :H21] &gt;gb|ENA0338867.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O12:H48] &gt;gb|ENA0359000.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O9:H37] &gt;gb|ENA6185339.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O62/O68:H12] &gt;gb|END2859326.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O16:H2] &gt;gb|ENH9024293.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O4:H45] &gt;gb|ENM4031303.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O26:H40] &gt;gb|ENR9115483.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O75:H38/H55] &gt;gb|ENU5896132.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O179/8:H45] &gt;gb|ENY4302192.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O45:H4] &gt;gb|ENY4315824.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O101:H9] &gt;gb|EOM3576191.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O99:H4] &gt;gb|EOM3659484.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O101:H10] &gt;gb|EOM3692790.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O101:H4] &gt;gb|EOM3707045.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O101,9,9a:H9] &gt;gb|EOM3727553.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O101:H45] &gt;gb|EOM3739773.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O3:H2] &gt;gb|EOM3783420.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O11:H4] &gt;gb|EOM3912116.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O148:H32] &gt;gb|EOW5427958.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O51:H4] &gt;gb|EOW5485062.1| (S)-ureidoglycine aminohydrolase [Escherichia coli H32] &gt;gb|EOW5498841.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O1:H33] &gt;gb|EOW5538710.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O21:H12] &gt;gb|EOW5546710.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O5:H32] &gt;gb|EOW5555766.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O45:H45] &gt;gb|EOW5578871.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O73,17,77:H31] &gt;gb|EOW5588163.1| (S)-ureidoglycine aminohydrolase [Escherichia coli H10] &gt;gb|EOW5616649.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O109:H45] &gt;gb|EOW5621368.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O2,50:H32] &gt;gb|EOW5635901.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O162:H10] &gt;gb|EOW5663578.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O113:H4] &gt;gb|EOW5667408.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O13,129,135:H11] &gt;gb|EOW5671785.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O76:H32] &gt;gb|EOW5686116.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O187:H4] &gt;gb|EOW5694904.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O99:H33] &gt;gb|EOW5741448.1| (S)-ureidoglycine aminohydrolase [Escherichia coli H45] &gt;gb|EOW5759767.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O2,50:H19] &gt;gb|EOW5778161.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O20:H45] &gt;gb|EOW5782806.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O109:H4] &gt;gb|EOW5809530.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O162:H33] &gt;gb|EOW6131121.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O13,129, 135:H11] &gt;gb|EPA7299367.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O123,186:H40] &gt;gb|EPA7317515.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O13,21,129,135:H11] &gt;gb|EPA7322693.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O45:H30] &gt;gb|EPA7326479.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O1:H27] &gt;gb|EPA7369898.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O9:H16] &gt;gb|EPC6702456.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O8:H9] &gt;gb|EPC6737031.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O127:H40] &gt;gb|EST78194.1| hypothetical protein ECA727_14747 [Escherichia coli ECA-727] &gt;gb|EYE05218.1| hypothetical protein AD37_0552 [Escherichia coli 1-110-08_S4_C3] &gt;gb|EYE06613.1| hypothetical protein AD08_0533 [Escherichia coli 1-110-08_S4_C2] &gt;gb|EYE14793.1| hypothetical protein AC55_0878 [Escherichia coli 1-110-08_S3_C3] &gt;gb|EYE27956.1| hypothetical protein AB97_1746 [Escherichia coli 1-110-08_S3_C1] &gt;gb|EYE29254.1| hypothetical protein AC25_0454 [Escherichia coli 1-110-08_S3_C2] &gt;gb|EZK24123.1| hypothetical protein AB39_0506 [Escherichia coli 1-176-05_S1_C2] &gt;gb|KEO01340.1| hypothetical protein AC18_0994 [Escherichia coli 2-222-05_S3_C2] &gt;gb|MCU8583587.1| (S)-ureidoglycine aminohydrolase [Klebsiella pneumoniae] &gt;gb|MEE6846782.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O74:H39] &gt;gb|MEE6952547.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O87:H39] &gt;gb|MEE6960884.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O81:H27] &gt;gb|MEE6992384.1| (S)-ureidoglycine aminohydrolase [Escherichia coli :H25] &gt;gb|MEE7034678.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O45:H16] &gt;gb|MEE7057197.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O83:H32] &gt;gb|MEE7137269.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O16:H16] &gt;gb|MEE7230051.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O6:H10] &gt;gb|MEE7322504.1| (S)-ureidoglycine aminohydrolase [Escherichia coli B12:H39] &gt;gb|MSS06368.1| (S)-ureidoglycine aminohydrolase [Enterobacteriaceae bacterium] &gt;gb|OSL80746.1| putative allantoin catabolism protein [Escherichia coli TA008] &gt;emb|CDK83883.1| Ureidoglycine aminohydrolase [Escherichia coli IS25] &gt;dbj|BAL37715.1| conserved protein [Escherichia coli str. K-12 substr. MDS42] &gt;tpg|HAJ6403799.1| (S)-ureidoglycine aminohydrolase [Escherichia coli HVH 101 (4-6859844)] &gt;tpg|HAL7221716.1| (S)-ureidoglycine aminohydrolase [Escherichia coli 042] &gt;tpg|HCA6861788.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O21:H2] &gt;tpg|HCB3976461.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O25b:H4-ST131] &gt;tpg|HCC7246269.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O141:H32] &gt;tpg|HDQ6465191.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O18 str. F10018-41] &gt;tpg|HDQ6468666.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O11 str. Bi632-42] &gt;tpg|HDQ6704583.1| (S)-ureidoglycine aminohydrolase [Escherichia coli Ou:H26] &gt;tpg|HDR9860904.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O10 str. Bi8337-41] &gt;tpg|HDS1990800.1| (S)-ureidoglycine aminohydrolase [Escherichia coli Bal225]</Hit_def>
+  <Hit_accession>WP_000540997</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.724</Hsp_bit-score>
+      <Hsp_score>1384</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_170884409.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EJF8213612.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EMF9384677.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EPA3965335.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|NNR44615.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|NNR49355.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_170884409</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGMVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDG+VKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|EFO0245703.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HDW0473189.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>EFO0245703</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLISGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWL+SGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_130060592.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EFE7694021.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EFE9370188.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EFE9635217.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EFG1501532.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EFO2878548.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_130060592</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGIYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQG+YNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_196106270.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MBF8840062.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_196106270</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDIILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDD+ILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|ENZ9733331.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>ENZ9733331</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDIEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRD+EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|EHL9106819.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EJQ5761397.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>EHL9106819</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNITGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNN+TGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>tpg|HAK9827561.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>HAK9827561</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHIQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETH+QEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_219386931.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EQA1376145.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MEZ3274841.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MEZ3316474.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HBI9993476.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HBJ1188385.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_219386931</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILMDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVIL+DFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MCV5242180.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MCV5250181.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MCV5369934.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>MCV5242180</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFIDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASF+DYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_234679166.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|UIR45172.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_234679166</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPIEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVP+EGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|EIY9669806.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>EIY9669806</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFSLSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTF+LSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MCS1298586.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>MCS1298586</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVITGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVI+GNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_001752230.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EFM3789562.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EMX32675.1| hypothetical protein ECMP0215612_1019 [Escherichia coli MP021561.2] &gt;gb|EPR6300102.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MCU8864313.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MEB6860134.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_001752230</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQSEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQ+EDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_089562928.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;emb|SQN68274.1| putative glyoxylate utilization [Escherichia coli] &gt;tpg|HBE6456238.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HBE6465557.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_089562928</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGSYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMG+YSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>tpg|HGF5569291.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>HGF5569291</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFSPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSF+PGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>tpg|HHL4305922.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>HHL4305922</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYIYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGY+YCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|EEZ6460541.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli O16] &gt;gb|XIW88915.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HHU7557823.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>EEZ6460541</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALTEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFAL+EGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_426932619.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MGD7908132.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_426932619</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVLSGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYV+SGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>tpg|HDR0513006.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>HDR0513006</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYMISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLY+ISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>tpg|HAV7976278.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>HAV7976278</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYLYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSY+YSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_219382613.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|ELP2617214.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MGM1073277.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MGP4456026.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MGP4564480.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MGP4663911.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_219382613</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHIFSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHI SFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|EEZ8389933.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EJN7414635.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EOJ5559245.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EOW5720648.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O160,9:H2]</Hit_def>
+  <Hit_accession>EEZ8389933</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYTPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGY PWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_343467169.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MCV5530323.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MGH6153358.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HDN3088229.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HDN3088704.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_343467169</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKTEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAK EGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_225375243.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HAM4438968.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_225375243</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALNEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFAL+EGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|EFO1333349.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>EFO1333349</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYFYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGY YCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>tpg|HBN0809597.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>HBN0809597</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNANELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNA+ELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_047609336.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EIM2738889.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|KHD42643.1| hypothetical protein LS39_05745 [Escherichia coli] &gt;gb|KHD56683.1| hypothetical protein LS40_02115 [Escherichia coli] &gt;gb|MZV68210.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_047609336</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGLDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEG+DDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_169059452.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|QJG27318.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_169059452</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAILKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAI+KHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_106720158.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_106720158</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQTGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQ GYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|EJC6296125.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>EJC6296125</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATIFSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATI STPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_000540949.1|</Hit_id>
+  <Hit_def>MULTISPECIES: (S)-ureidoglycine aminohydrolase [Enterobacteriaceae] &gt;gb|EEY7936327.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O20:H9] &gt;gb|EEZ5745370.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O25] &gt;gb|EEZ5985992.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O78] &gt;gb|EEZ9861150.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O8] &gt;gb|EFA4133822.1| (S)-ureidoglycine aminohydrolase [Escherichia coli OX01:H8] &gt;gb|EFA8814565.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O74] &gt;gb|EMZ7179554.1| (S)-ureidoglycine aminohydrolase [Escherichia O78:H4] &gt;gb|ENY4261912.1| (S)-ureidoglycine aminohydrolase [Escherichia coli H9] &gt;gb|EOM4014229.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O8:H25] &gt;gb|EOW5656420.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O112ab:H9] &gt;gb|EPC6782073.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O3:H9] &gt;gb|ERF89600.1| hypothetical protein CFSAN002237_19645 [Escherichia coli O104:H21 str. CFSAN002237] &gt;gb|MCI6423646.1| (S)-ureidoglycine aminohydrolase [Shigella flexneri] &gt;gb|MCI6601939.1| (S)-ureidoglycine aminohydrolase [Shigella dysenteriae] &gt;gb|MCQ8840743.1| (S)-ureidoglycine aminohydrolase [Klebsiella sp. KJ_S1] &gt;gb|MEE7262916.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O187:H52] &gt;emb|CCK45664.1| hypothetical protein BN16_09791 [Escherichia coli chi7122] &gt;emb|SSG24797.1| Uncharacterized conserved protein, contains double-stranded beta-helix domain [Klebsiella pneumoniae] &gt;tpg|HDM0072178.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O8:H9] &gt;tpg|HDQ6568365.1| (S)-ureidoglycine aminohydrolase [Escherichia coli Ou:H7]</Hit_def>
+  <Hit_accession>WP_000540949</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYRDDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYR+DLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_152920425.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MEQ5398062.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MEY1235131.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MEZ2505882.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MQK93880.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HCO6536753.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_152920425</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITTKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNIT KAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|EOU6159479.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>EOU6159479</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDNQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAED+QIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_087905857.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EEY9420978.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EEZ7679449.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EHI0955488.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EHL2693800.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EIE8420940.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_087905857</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGTYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHG YILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_089648524.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EOW5978684.1| (S)-ureidoglycine aminohydrolase [Escherichia coli O109:H27] &gt;gb|EEZ0220649.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|ELO2527309.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|ENH2785176.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MCA8563375.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_089648524</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNTQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVN QAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>tpg|HBB7595872.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HBB7986217.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>HBB7595872</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQTEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQ EDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_121851395.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|RLW76344.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HBB7822842.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HBB7846974.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_121851395</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFTLLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNF LLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>tpg|HAV2419786.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HDD9504243.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>HAV2419786</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFTPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSF PGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>tpg|HGV0223674.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>HGV0223674</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDYLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLD+LPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|EFN9188330.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>EFN9188330</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGTSHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPG SHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_174143150.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EJA0598335.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EPD9982939.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MDA6990942.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MDO2624456.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MDO2796664.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_174143150</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLADRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLA+RAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_411510343.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|XMM07335.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;emb|CAM7475158.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;emb|CAM8504045.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HCP6325671.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HCP6458143.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_411510343</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFVLSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTF LSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|MCA7369973.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>MCA7369973</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAENSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAE+SQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_337051927.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HCO3910255.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HCS8322341.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_337051927</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYAISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLY ISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|ELD1626527.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HFI8103558.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HFJ6991546.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>ELD1626527</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGVSHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPG SHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|EFB2635193.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|EHC5011279.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MCV5378609.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HDD9645096.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HFI8806841.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>EFB2635193</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQKHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQ+HGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_097339936.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HAN4039213.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_097339936</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGVSFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLG SFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|MCY6521974.1|</Hit_id>
+  <Hit_def>(S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;gb|MCY6529290.1| (S)-ureidoglycine aminohydrolase [Escherichia coli] &gt;tpg|HHL4147873.1| (S)-ureidoglycine aminohydrolase [Escherichia coli]</Hit_def>
+  <Hit_accession>MCY6521974</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MGYLNNVTGYREDLLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_qseq>
+      <Hsp_hseq>MGYLNNVTGYREELLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_hseq>
+      <Hsp_midline>MGYLNNVTGYRE+LLANRAIVKHGNFALLTPDGLVKNIIPGFENCDATILSTPKLGASFVDYLVTLHQNGGNQQGFGGEGIETFLYVISGNITAKAEGKTFALSEGGYLYCPPGSLMTFVNAQAEDSQIFLYKRRYVPVEGYAPWLVSGNASELERIHYEGMDDVILLDFLPKELGFDMNMHILSFAPGASHGYIETHVQEHGAYILSGQGVYNLDNNWIPVKKGDYIFMGAYSLQAGYGVGRGEAFSYIYSKDCNRDVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>992600616</Statistics_db-num>
+      <Statistics_db-len>377357426599</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
